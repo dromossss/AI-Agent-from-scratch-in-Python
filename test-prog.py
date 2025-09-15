@@ -12,5 +12,5 @@ llm = ChatOpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-response = llm.invoke("Who is cristiano ronaldo in 3 saentences and name 2 qualities")
+response = llm.invoke("Who is cristiano ronaldo in 3 sentences and name 2 qualities")
 print(response.content)
